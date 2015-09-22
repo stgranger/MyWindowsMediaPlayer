@@ -1,0 +1,5 @@
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MWidgets\bin\Debug\MWidgets.dll
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MWidgets\bin\Debug\MWidgets.pdb
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MWidgets\obj\Debug\MWidgets.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MWidgets\obj\Debug\MWidgets.dll
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MWidgets\obj\Debug\MWidgets.pdb

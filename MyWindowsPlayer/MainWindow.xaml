@@ -1,0 +1,43 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MWidgets="clr-namespace:MWidgets;assembly=MWidgets"
+        x:Name="MyMediaPlayer"
+        x:Class="MyWindowsMediaPlayer.MainWindow"
+        Title="MyWindowsMediaPlayer"
+        Height="477.4" Width="530" Drop="_DragNDrop" ResizeMode="NoResize"
+        AllowDrop="True" DragEnter="_DragEnter" Icon="pack://siteoforigin:,,,/Resources/icon.png">
+
+    <Grid x:Name="WindowGrid" Margin="0,0,0,1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="139*"/>
+            <RowDefinition x:Name="_ControlsRow" Height="73*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <MWidgets:MMenu x:Name="_Menu" HorizontalAlignment="Left" Height="28" VerticalAlignment="Top" Width="525" Margin="0,0,-1,0">
+            <MWidgets:MMenuItem x:Name="_MenuItemFile" Header="File" Height="22" Margin="0">
+                <MWidgets:MMenuItem x:Name="_MenuItemOpen" Header="Open" Click="_MenuOpen"/>
+                <Separator/>
+                <MWidgets:MMenuItem x:Name="_MenuItemQuit" Header="Quit" Click="_ClickQuit"/>
+            </MWidgets:MMenuItem>
+            <MWidgets:MComboBox x:Name="_ComboBoxLanguage" Width="162" SelectionChanged="_SwitchLanguage"/>
+        </MWidgets:MMenu>
+
+        <MWidgets:MMediaElement  x:Name="_Media" HorizontalAlignment="Center" VerticalAlignment="Center" LoadedBehavior="Manual" UnloadedBehavior="Manual" OpacityMask="Black" MouseDown="_PauseUnpause" MediaEnded="_MediaEnded" MouseLeftButtonUp="mainMediaElement_MouseLeftButtonUp" Grid.Row="1"/>
+        <MWidgets:MListBox x:Name="_ListPlayList" HorizontalAlignment="Left" Margin="239,35,0,10" Width="275" KeyDown="_ListKeyDown" MouseDoubleClick="_ListMouseDown" Grid.Row="2"/>
+        <MWidgets:MLabel x:Name="_LabelDuration" Content="00:00:00" Margin="456,0,8,111" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Width="60" VerticalContentAlignment="Center" Grid.Row="2"/>
+        <MWidgets:MSlider x:Name="_SliderDuration" AutoToolTipPlacement="None" HorizontalAlignment="Center" Margin="10,10,73,0" Maximum="5000"  VerticalAlignment="Top" Width="441" IsManipulationEnabled="True" IsMoveToPointEnabled="True" PreviewMouseLeftButtonDown="_SliderMouseDown" PreviewMouseLeftButtonUp="_SliderMouseUp" Grid.Row="2" Height="20"/>
+        <MWidgets:MSlider x:Name="_SliderVolume" ValueChanged="SliderVolumeChanged" Minimum ="0" Maximum="1" Value="100" HorizontalAlignment="Left" Margin="213,40,0,0" VerticalAlignment="Top" Orientation="Vertical" Height="47" Grid.Row="2"/>
+        <MWidgets:MButton x:Name="_ButtonPlay" Content="_Play" HorizontalAlignment="Left" Margin="70,40,0,0" VerticalAlignment="Top" Click="_Play" Width="80" Grid.Row="2"/>
+        <MWidgets:MButton x:Name="_ButtonStop" Content="_Stop" HorizontalAlignment="Left" Margin="155,40,0,0" VerticalAlignment="Top" Click="_Stop" Width="55" HorizontalContentAlignment="Right" Grid.Row="2"/>
+        <MWidgets:MButton x:Name="_ButtonPause" Content="_Pause" HorizontalAlignment="Left" Margin="4,40,0,0" VerticalAlignment="Top" Click="_Pause" Width="61" HorizontalContentAlignment="Left" Grid.Row="2"/>
+        <MWidgets:MButton x:Name="_ButtonNext" Content="Next" HorizontalAlignment="Right" Margin="0,67,314,0" VerticalAlignment="Top" Click="_Next" HorizontalContentAlignment="Right" Width="55" Grid.Row="2"/>
+        <MWidgets:MButton x:Name="_ButtonPrevious" Content="Previous" HorizontalAlignment="Left" Margin="4,67,0,0" VerticalAlignment="Top" Click="_Previous" RenderTransformOrigin="0.365,0.806" HorizontalContentAlignment="Left" Width="61" Grid.Row="2"/>
+        <MWidgets:MLabel x:Name="_LabelStatus" Margin="4,92,288,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" Height="28" Grid.Row="2"/>
+    </Grid>
+</Window>

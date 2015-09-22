@@ -1,0 +1,5 @@
+C:\Users\Steve\Desktop\mywindowsmediaplayer\IMyPlaylist\bin\Debug\IMyPlaylist.dll
+C:\Users\Steve\Desktop\mywindowsmediaplayer\IMyPlaylist\bin\Debug\IMyPlaylist.pdb
+C:\Users\Steve\Desktop\mywindowsmediaplayer\IMyPlaylist\obj\Debug\IMyPlaylist.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Desktop\mywindowsmediaplayer\IMyPlaylist\obj\Debug\IMyPlaylist.dll
+C:\Users\Steve\Desktop\mywindowsmediaplayer\IMyPlaylist\obj\Debug\IMyPlaylist.pdb

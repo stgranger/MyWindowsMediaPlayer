@@ -1,0 +1,9 @@
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MyPlaylist\bin\Debug\MediaPlayer.dll
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MyPlaylist\bin\Debug\MediaPlayer.pdb
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MyPlaylist\bin\Debug\IEventDispose.dll
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MyPlaylist\bin\Debug\IMyPlaylist.dll
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MyPlaylist\bin\Debug\IEventDispose.pdb
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MyPlaylist\bin\Debug\IMyPlaylist.pdb
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MyPlaylist\obj\Debug\MyPlaylist.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MyPlaylist\obj\Debug\MediaPlayer.dll
+C:\Users\Steve\Desktop\mywindowsmediaplayer\MyPlaylist\obj\Debug\MediaPlayer.pdb

@@ -1,0 +1,5 @@
+C:\Users\Steve\Desktop\mywindowsmediaplayer\IEventDispose\bin\Debug\IEventDispose.dll
+C:\Users\Steve\Desktop\mywindowsmediaplayer\IEventDispose\bin\Debug\IEventDispose.pdb
+C:\Users\Steve\Desktop\mywindowsmediaplayer\IEventDispose\obj\Debug\IEventDispose.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Desktop\mywindowsmediaplayer\IEventDispose\obj\Debug\IEventDispose.dll
+C:\Users\Steve\Desktop\mywindowsmediaplayer\IEventDispose\obj\Debug\IEventDispose.pdb
